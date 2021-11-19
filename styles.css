@@ -1,0 +1,35 @@
+img{
+    width: 400px;
+    height: 300px;
+    display: none;
+    z-index: 1;
+}
+
+.activo{
+    display: block;
+}
+
+.container{
+    position: relative;
+    width: 400px;
+    margin: 10px;
+    border: 2px solid lightpink;
+}
+
+.botones{
+    margin: 0 0 0 10px;
+    width: 400px;
+    display: flex;
+    justify-content: space-around;
+}
+
+button{
+    font-size: 30px;
+    background: none;
+    border: none;
+}
+
+button:hover{
+    color: limegreen;
+    cursor: pointer;
+}
